@@ -2,13 +2,12 @@
 
 int add(int a, int b)
 {
-		return a+b;
+        return a+b;
 }
 
-
-int main(int argc, char *argv[])
+int main(void)
 {
-		printf("%d + %d = %d\n", 1,2, 1+2);
-		printf("hello world\n");
-		return 0;
+        printf("%d + %d = %d\n", 1, 2, add(1,2));
+        printf("hello world\n");
+        return 0;
 }
